@@ -7,10 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies / build
 node_modules
 dist
 dist-ssr
 *.local
+
+# Env files
+.env
+.env.*
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,react,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,react,visualstudiocode
